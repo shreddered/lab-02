@@ -59,7 +59,7 @@ class RandomSearcher(alias func) : ISearcher {
         foreach(i, seq; n) {
             writef("| %-1.3f ", q[i]);
             foreach(j, elem; seq) {
-                writef("|%-9d", elem);
+                writef("|%9d", elem);
             }
             writeln('|');
         }
