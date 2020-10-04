@@ -1,4 +1,4 @@
-module algorithms.random;
+module algorithms.random_searcher;
 
 import algorithms.searcher;
 
